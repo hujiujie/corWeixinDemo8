@@ -24,5 +24,9 @@ if __name__ == '__main__':
 
 
     #pytest.main(['-sq', 'testcases/contact/department/test_create_dept.py'])
-    pytest.main(['-sq', 'testcases/contact/department/test_update_dept.py'])
+    #pytest.main(['-sq', 'testcases/contact/department/test_update_dept.py'])
+    #pytest.main(['-sq', 'testcases/contact/department/test_delete_dept.py'])
+    #pytest.main(['-sq', 'testcases/contact/department/test_list_dept.py'])
+    pytest.main(['-sq', 'testcases/contact/member/test_member.py'])
+
     logging.info("End to execute APP UI automaction cases")
