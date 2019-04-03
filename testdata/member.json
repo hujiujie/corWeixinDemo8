@@ -1,0 +1,25 @@
+{
+  "userid": "zhangsan4",
+  "name": "张三4",
+  "alias": "jackzhang",
+  "mobile": "15913215424",
+  "department": [
+    11,
+    12
+  ],
+  "order": [
+    10,
+    40
+  ],
+  "position": "产品经理",
+  "gender": "1",
+  "email": "zhangsan4@gzdev.com",
+  "is_leader_in_dept": [
+    1,
+    0
+  ],
+  "enable": 1,
+  "avatar_mediaid": "",
+  "telephone": "020-123456",
+  "address": "广州市海珠区新港中路"
+}

@@ -12,6 +12,8 @@ class BaseAPI:
         logging.info("init base api interface")
         self.corp_id = sys_cfg.get('corp_para', 'corp_id')
         self.token_url = sys_cfg.get('corp_para', 'token_url')
+        logging.info("corp_id=" + self.corp_id)
+
 
     def get_token(self, secret):
 

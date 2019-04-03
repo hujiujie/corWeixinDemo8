@@ -1,3 +1,301 @@
-2019-04-02 23:53:48,039 root INFO runner:23 Start to execute  automation cases
-2019-04-02 23:53:48,495 root INFO baseapi:12 init base api interface
-2019-04-02 23:53:48,536 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:13:11,569 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:13:12,155 root INFO baseapi:12 init base api interface
+2019-04-03 22:13:12,155 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:13:12,218 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:14:01,436 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:14:02,046 root INFO baseapi:12 init base api interface
+2019-04-03 22:14:02,046 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:14:02,046 root INFO member_managerment:15 Init member management API
+2019-04-03 22:14:02,046 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:14:02,047 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:14:02,051 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:14:02,629 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:14:02,632 root DEBUG member_managerment:48 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:14:02,688 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:14:58,305 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:14:58,975 root INFO baseapi:12 init base api interface
+2019-04-03 22:14:58,975 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:14:58,975 root INFO member_managerment:16 Init member API
+2019-04-03 22:14:58,975 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:14:58,975 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:14:58,975 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:14:59,538 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:14:59,541 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:14:59,632 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:15:59,036 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:15:59,711 root INFO baseapi:12 init base api interface
+2019-04-03 22:15:59,711 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:15:59,711 root INFO member_managerment:16 Init member API
+2019-04-03 22:15:59,711 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:15:59,711 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:15:59,728 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:16:00,245 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:16:00,249 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:16:00,249 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:16:00,249 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:16:00,653 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 176
+2019-04-03 22:16:00,725 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:18:33,796 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:18:34,415 root INFO baseapi:12 init base api interface
+2019-04-03 22:18:34,415 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:18:34,415 root INFO member_managerment:16 Init member API
+2019-04-03 22:18:34,415 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:18:34,416 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:18:34,419 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:18:34,938 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:18:34,940 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:18:34,940 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:18:34,942 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:18:35,485 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:18:35,502 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:20:47,065 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:20:47,496 root INFO baseapi:12 init base api interface
+2019-04-03 22:20:47,496 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:20:47,497 root INFO member_managerment:16 Init member API
+2019-04-03 22:20:47,497 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:20:47,497 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:20:47,501 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:20:47,945 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:20:47,947 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:20:47,947 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:20:47,948 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:20:48,216 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 52
+2019-04-03 22:20:48,263 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:21:11,021 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:21:11,464 root INFO baseapi:12 init base api interface
+2019-04-03 22:21:11,464 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:21:11,464 root INFO member_managerment:16 Init member API
+2019-04-03 22:21:11,464 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:21:11,464 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:21:11,469 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:11,874 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:21:11,874 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:21:11,874 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:21:11,874 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:12,163 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 166
+2019-04-03 22:21:12,208 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:21:28,589 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:21:29,009 root INFO baseapi:12 init base api interface
+2019-04-03 22:21:29,009 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:21:29,009 root INFO member_managerment:16 Init member API
+2019-04-03 22:21:29,009 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:21:29,009 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:21:29,009 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:29,446 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:21:29,446 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:21:29,446 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:21:29,446 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:29,796 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 59
+2019-04-03 22:21:29,842 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:21:40,185 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:21:40,626 root INFO baseapi:12 init base api interface
+2019-04-03 22:21:40,626 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:21:40,626 root INFO member_managerment:16 Init member API
+2019-04-03 22:21:40,626 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:21:40,626 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:21:40,626 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:41,110 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:21:41,111 root DEBUG member_managerment:42 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:21:41,111 root DEBUG member_managerment:43 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:21:41,113 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:21:41,718 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:21:41,728 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:37:34,795 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:37:35,279 root INFO baseapi:12 init base api interface
+2019-04-03 22:37:35,279 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:37:35,279 root INFO member_managerment:18 Init member API
+2019-04-03 22:37:35,279 root DEBUG member_managerment:29 json_object{'userid': 'zhangsan3', 'name': '张三3', 'alias': 'jackzhang', 'mobile': '15913215423', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan3@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:37:35,279 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:37:35,279 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:37:35,279 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:37:35,701 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:37:35,701 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:37:35,701 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:37:35,701 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:37:36,126 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:37:36,141 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:51:00,082 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:51:00,730 root INFO baseapi:12 init base api interface
+2019-04-03 22:51:00,730 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:51:00,730 root INFO member_managerment:18 Init member API
+2019-04-03 22:51:00,730 root DEBUG member_managerment:29 json_object{'userid': 'zhangsan4', 'name': '张三4', 'alias': 'jackzhang', 'mobile': '15913215424', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan4@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:51:00,730 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:51:00,730 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:51:00,730 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:01,199 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:51:01,199 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:51:01,199 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:51:01,199 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:01,777 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:51:01,823 root INFO baseapi:12 init base api interface
+2019-04-03 22:51:01,823 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:51:01,823 root INFO member_managerment:18 Init member API
+2019-04-03 22:51:01,823 root DEBUG member_managerment:29 json_object{'userid': 'lisi', 'name': '李四', 'alias': 'jackzhang', 'mobile': '18800001111', 'department': [11, 12], 'order': [10, 40], 'position': '项目经理', 'gender': '1', 'email': 'lisi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:51:01,823 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:51:01,823 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:51:01,823 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:02,105 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:51:02,105 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:51:02,105 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:51:02,105 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:02,808 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:51:02,808 root INFO baseapi:12 init base api interface
+2019-04-03 22:51:02,808 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:51:02,808 root INFO member_managerment:18 Init member API
+2019-04-03 22:51:02,808 root DEBUG member_managerment:29 json_object{'userid': 'ceshi1', 'name': '测试姓名', 'alias': 'jackzhang', 'mobile': '18800002222', 'department': [11, 12], 'order': [10, 40], 'position': '测试经理', 'gender': '1', 'email': 'ceshi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:51:02,808 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:51:02,808 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:51:02,808 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:03,058 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:51:03,058 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:51:03,073 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:51:03,073 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:03,555 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:51:03,557 root INFO baseapi:12 init base api interface
+2019-04-03 22:51:03,558 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:51:03,558 root INFO member_managerment:18 Init member API
+2019-04-03 22:51:03,558 root DEBUG member_managerment:29 json_object{'userid': 'ceshi2', 'name': '测试2', 'alias': 'jackzhang', 'mobile': '18800003333', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'ceshi2@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:51:03,558 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:51:03,558 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:51:03,559 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:03,814 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:51:03,815 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:51:03,815 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:51:03,816 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:51:04,256 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 32
+2019-04-03 22:51:04,272 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 22:52:04,385 root INFO runner:23 Start to execute  automation cases
+2019-04-03 22:52:04,853 root INFO baseapi:12 init base api interface
+2019-04-03 22:52:04,853 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:52:04,853 root INFO member_managerment:18 Init member API
+2019-04-03 22:52:04,853 root DEBUG member_managerment:29 json_object{'userid': 'zhangsan4', 'name': '张三4', 'alias': 'jackzhang', 'mobile': '15913215424', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan4@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:52:04,853 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:52:04,853 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:52:04,853 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:52:05,322 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:52:05,322 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:52:05,322 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:52:05,322 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:52:06,197 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 53
+2019-04-03 22:52:06,259 root INFO baseapi:12 init base api interface
+2019-04-03 22:52:06,259 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 22:52:06,259 root INFO member_managerment:18 Init member API
+2019-04-03 22:52:06,259 root DEBUG member_managerment:29 json_object{'userid': 'lisi', 'name': '李四', 'alias': 'jackzhang', 'mobile': '18800001111', 'department': [11, 12], 'order': [10, 40], 'position': '项目经理', 'gender': '1', 'email': 'lisi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 22:52:06,259 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 22:52:06,259 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 22:52:06,275 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:52:06,522 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 22:52:06,523 root DEBUG member_managerment:37 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 22:52:06,524 root DEBUG member_managerment:38 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 22:52:06,525 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 22:52:06,807 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 48
+2019-04-03 22:52:06,823 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 23:05:47,356 root INFO runner:23 Start to execute  automation cases
+2019-04-03 23:05:47,870 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 23:06:05,263 root INFO runner:23 Start to execute  automation cases
+2019-04-03 23:06:05,797 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 23:10:33,771 root INFO runner:23 Start to execute  automation cases
+2019-04-03 23:10:34,302 root INFO baseapi:12 init base api interface
+2019-04-03 23:10:34,302 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:10:34,302 root INFO member_managerment:20 Init member API
+2019-04-03 23:10:34,318 root DEBUG member_managerment:31 json_object{'userid': 'zhangsan4', 'name': '张三4', 'alias': 'jackzhang', 'mobile': '15913215424', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan4@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:10:34,318 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:10:34,318 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:10:34,318 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:34,835 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:10:34,837 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:10:34,837 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:10:34,838 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:35,149 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 53
+2019-04-03 23:10:35,211 root INFO baseapi:12 init base api interface
+2019-04-03 23:10:35,211 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:10:35,211 root INFO member_managerment:20 Init member API
+2019-04-03 23:10:35,211 root DEBUG member_managerment:31 json_object{'userid': 'lisi', 'name': '李四', 'alias': 'jackzhang', 'mobile': '18800001111', 'department': [11, 12], 'order': [10, 40], 'position': '项目经理', 'gender': '1', 'email': 'lisi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:10:35,211 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:10:35,211 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:10:35,211 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:35,461 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:10:35,461 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:10:35,461 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:10:35,461 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:35,760 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 48
+2019-04-03 23:10:35,760 root INFO baseapi:12 init base api interface
+2019-04-03 23:10:35,760 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:10:35,760 root INFO member_managerment:20 Init member API
+2019-04-03 23:10:35,760 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:10:35,760 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:10:35,760 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:36,010 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:10:36,010 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:10:36,151 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg&userid=zhangsan HTTP/1.1" 200 47
+2019-04-03 23:10:36,182 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 23:12:03,107 root INFO runner:23 Start to execute  automation cases
+2019-04-03 23:12:03,623 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:03,623 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:03,623 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:03,623 root DEBUG member_managerment:31 json_object{'userid': 'zhangsan4', 'name': '张三4', 'alias': 'jackzhang', 'mobile': '15913215424', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan4@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:12:03,623 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:03,623 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:03,638 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:04,076 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:04,076 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:12:04,076 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:12:04,076 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:04,529 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 53
+2019-04-03 23:12:04,607 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:04,607 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:04,607 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:04,607 root DEBUG member_managerment:31 json_object{'userid': 'lisi', 'name': '李四', 'alias': 'jackzhang', 'mobile': '18800001111', 'department': [11, 12], 'order': [10, 40], 'position': '项目经理', 'gender': '1', 'email': 'lisi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:12:04,607 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:04,607 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:04,622 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:04,873 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:04,888 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:12:04,888 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:12:04,888 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:05,185 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 48
+2019-04-03 23:12:05,185 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:05,185 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:05,185 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:05,185 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:05,185 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:05,185 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:05,466 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:05,466 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:05,718 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/user/get?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg&userid=zhangsan HTTP/1.1" 200 475
+2019-04-03 23:12:05,746 root INFO runner:32 End to execute APP UI automaction cases
+2019-04-03 23:12:32,040 root INFO runner:23 Start to execute  automation cases
+2019-04-03 23:12:32,571 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:32,571 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:32,571 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:32,571 root DEBUG member_managerment:31 json_object{'userid': 'zhangsan4', 'name': '张三4', 'alias': 'jackzhang', 'mobile': '15913215424', 'department': [11, 12], 'order': [10, 40], 'position': '产品经理', 'gender': '1', 'email': 'zhangsan4@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:12:32,571 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:32,571 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:32,571 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:32,993 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:32,993 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:12:32,993 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:12:32,993 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:33,290 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 53
+2019-04-03 23:12:33,352 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:33,352 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:33,352 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:33,352 root DEBUG member_managerment:31 json_object{'userid': 'lisi', 'name': '李四', 'alias': 'jackzhang', 'mobile': '18800001111', 'department': [11, 12], 'order': [10, 40], 'position': '项目经理', 'gender': '1', 'email': 'lisi@gzdev.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '020-123456', 'address': '广州市海珠区新港中路'}
+2019-04-03 23:12:33,352 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:33,352 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:33,352 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:33,973 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:33,975 root DEBUG member_managerment:39 url=https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-03 23:12:33,975 root DEBUG member_managerment:40 param={'access_token': 'nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg'}
+2019-04-03 23:12:33,977 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:34,243 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg HTTP/1.1" 200 48
+2019-04-03 23:12:34,248 root INFO baseapi:12 init base api interface
+2019-04-03 23:12:34,249 root INFO baseapi:15 corp_id=wwa275620c6ff781ac
+2019-04-03 23:12:34,249 root INFO member_managerment:20 Init member API
+2019-04-03 23:12:34,249 root INFO baseapi:21 params{'corpid': 'wwa275620c6ff781ac', 'corpsecret': '3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE'}
+2019-04-03 23:12:34,249 root INFO baseapi:22 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-03 23:12:34,250 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:34,484 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwa275620c6ff781ac&corpsecret=3-AsUU75fNKO0sNNQacIkmQQX5wB5PXefgH6DK7YQRE HTTP/1.1" 200 277
+2019-04-03 23:12:34,484 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-03 23:12:34,734 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/user/get?access_token=nj16D852z_FXzmQUzLZZxgxOsPeKO8kba5dVl3rYhgukBw4L0Ti-0-qxv0Mysj6fk4Vyo9w_ZH1iYeSu7718xh1qRbmk7VDZihUhRtBIdegGGnY8TcM28oxnczQV8CAKw009lu_ncmLXAepvy8MfXiFN5psY-T58Q_bMtNhyO51FvQm4CX_ZsW-jy1GuyBw63W5EoXxwMDYeVvH9OAzIbg&userid=zhangsan HTTP/1.1" 200 475
+2019-04-03 23:12:34,750 root INFO runner:32 End to execute APP UI automaction cases

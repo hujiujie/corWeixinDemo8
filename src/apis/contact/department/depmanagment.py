@@ -10,6 +10,7 @@ from initialization.sysconfig import sys_cfg
 # 通讯录管理---部门管理
 class DeptManagment(BaseAPI):
 
+
     def __init__(self):
         BaseAPI.__init__(self)
         logging.info("Init department management API")

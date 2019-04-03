@@ -7,7 +7,7 @@ from apis.contact.department.depmanagment import DeptManagment
 class TestCreateDept:
 
     # 创建一级.二级部门
-    @pytest.mark.parametrize("pre_name,child_name", [("新增部门3", "新增部门3-1"),("新增部门4", "新增部门4-1")])
+    @pytest.mark.parametrize("pre_name,child_name", [("新增部门0403", "新增部门0403-1"),("新增部门04032", "新增部门04032-1")])
     def test_create_new_dep(self, pre_name,child_name):
         dept_managment = DeptManagment()
         dept_managment.create_dept(pre_name)

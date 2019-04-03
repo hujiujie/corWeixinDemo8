@@ -1,0 +1,25 @@
+{
+  "userid": "lisi",
+  "name": "李四",
+  "alias": "jackzhang",
+  "mobile": "18800001111",
+  "department": [
+    11,
+    12
+  ],
+  "order": [
+    10,
+    40
+  ],
+  "position": "项目经理",
+  "gender": "1",
+  "email": "lisi@gzdev.com",
+  "is_leader_in_dept": [
+    1,
+    0
+  ],
+  "enable": 1,
+  "avatar_mediaid": "",
+  "telephone": "020-123456",
+  "address": "广州市海珠区新港中路"
+}
