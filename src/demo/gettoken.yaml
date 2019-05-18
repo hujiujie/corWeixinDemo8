@@ -1,0 +1,33 @@
+-   config:
+        name: testcase description
+        variables: {}
+-   test:
+        name: /cgi-bin/gettoken
+        request:
+            headers:
+                Postman-Token: fabf09f4-6318-4470-936e-76650004dc4c
+                User-Agent: PostmanRuntime/7.6.1
+            method: GET
+            params:
+                corpid: wwd6da61649bd66fea
+                corpsecret: C7uGOrNyxWWzwBsUyWEbLdbZBDrc71PNOhyQ_YYPhts
+            url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+        validate:
+        -   eq:
+            - status_code
+            - 200
+        -   eq:
+            - headers.Content-Type
+            - application/json; charset=UTF-8
+        -   eq:
+            - content.errcode
+            - 0
+        -   eq:
+            - content.errmsg
+            - ok
+        -   eq:
+            - content.access_token
+            - 2D1iNGjJWFXgANoSjUZKGKby7jOJVKpTwmoaaDVTzBQ2C51JYxGmxx_WNAuYRQarbU1uPavGBaoTcaaZnoUFJkJPxDs4hh7hTrAgipXH3vNbgofR9lpoSkhXf_rEErhSP8PCVIkolbwVE4U4XiAC83tpuj00JcSiK69YyLe8nhm4IgMKMVgaLjw6pPh4hejzrtjoQOyc1mDb5nStxSHVeg
+        -   eq:
+            - content.expires_in
+            - 7200

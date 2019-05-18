@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2019/5/18 11:35
-# @Author  : hjj
-# @Site    : 更新字典值小方法
-# @File    : dicupdate.py
-dic1 = {"a":1,"b":2}
-dic1["b"] = 12
-print(dic1)
+#! /usr/bin/env python
+#coding=utf-8
+
+a={"a":1,"b":10}
+a.update({"b":12,"c":10})
+print(a)
