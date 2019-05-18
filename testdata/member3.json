@@ -1,8 +1,10 @@
 {
-  "userid": "ceshi2",
-  "name": "测试2",
+  "testcase1":
+  {
+  "userid": "ceshi88",
+  "name": "测试88",
   "alias": "jackzhang",
-  "mobile": "18800003333",
+  "mobile": "18800003337",
   "department": [
     11,
     12
@@ -13,7 +15,7 @@
   ],
   "position": "产品经理",
   "gender": "1",
-  "email": "ceshi2@gzdev.com",
+  "email": "ceshi88@gzdev.com",
   "is_leader_in_dept": [
     1,
     0
@@ -22,4 +24,31 @@
   "avatar_mediaid": "",
   "telephone": "020-123456",
   "address": "广州市海珠区新港中路"
+},
+  "testcase2":
+  {
+  "userid": "ceshi89",
+  "name": "测试89",
+  "alias": "jackzhang",
+  "mobile": "18800003338",
+  "department": [
+    11,
+    12
+  ],
+  "order": [
+    10,
+    40
+  ],
+  "position": "产品经理",
+  "gender": "1",
+  "email": "ceshi89@gzdev.com",
+  "is_leader_in_dept": [
+    1,
+    0
+  ],
+  "enable": 1,
+  "avatar_mediaid": "",
+  "telephone": "020-123456",
+  "address": "广州市海珠区新港中路"
+}
 }
