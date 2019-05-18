@@ -1,0 +1,52 @@
+{
+  "testcase1":
+  {"req":
+    {
+    "userid": "hjj",
+      "name": "小姐姐",
+      "alias": "xioujiu",
+      "mobile": "16613215423",
+      "department": [11, 12],
+      "order":[10,40],
+      "position": "产品经理",
+      "gender": "1",
+      "email": "hjj@gzdev.com",
+      "is_leader_in_dept": [1, 0],
+      "enable":1,
+      "avatar_mediaid": "",
+      "telephone": "021-1223456",
+      "address": "广州市海珠区新港中路"
+  },
+  "res":
+    {
+      "errcode": 0,
+      "errmsg": "created"
+}
+
+},
+  "testcase2":
+  {"req":
+    {
+    "userid": "hjj2",
+      "name": "小姐姐2",
+      "alias": "xiaojiu",
+      "mobile": "16613215424",
+      "department": [11, 12],
+      "order":[10,40],
+      "position": "产品经理",
+      "gender": "1",
+      "email": "hjj2@gzdev.com",
+      "is_leader_in_dept": [1, 0],
+      "enable":1,
+      "avatar_mediaid": "",
+      "telephone": "021-1223456",
+      "address": "广州市海珠区新港中路"
+  },
+  "res":
+    {
+      "errcode": 0,
+      "errmsg": "created"
+}
+
+}
+}
