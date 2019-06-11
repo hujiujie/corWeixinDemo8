@@ -5,13 +5,17 @@
 # @File    : test_create_member6.py
 import sys
 
+import allure
+
 from apis.contact.member.member_managerment import MemberManagermentApi
 from utils import toolskit, comparator
 
+@allure.feature("创建用户")
 
 class TestCreateMember123:
     # 此测试用例，测试数据通过类名和方法名获得
     # 但是必须确保类名和json文件名称一致
+    @allure.story("创建用户test1")
     def test_testcase1(self):
 
         # 如果类中只有一个方法，则可以用类名，获取类名
@@ -44,6 +48,7 @@ class TestCreateMember123:
         # 断言两个json中的res中的值是否相等
         assert json_comparator.equal(live_create_res, std_json_obj_res)
 
+    @allure.story("创建用户test2")
     def test_testcase2(self):
 
         # 如果类中只有一个方法，则可以用类名，获取类名
