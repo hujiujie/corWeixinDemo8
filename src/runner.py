@@ -1,7 +1,6 @@
 #! /usr/bin/env python
 #coding=utf-8
-
-
+import subprocess
 import sys
 import logging
 import os
@@ -27,6 +26,7 @@ if __name__ == '__main__':
     #pytest.main(['-sq', 'testcases/contact/department/test_update_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_delete_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_list_dept.py'])
-    pytest.main(['-sq', 'testcases/contact/member/test_create_member7.py'])
-
+#   pytest.main(['-sq', 'testcases/contact/member/test_create_member7.py'])
+    pytest.main(['-sq','--alluredir', '../log/testreport', 'testcases/contact/member/test_create_member7.py'])
+    print(subprocess.getstatusoutput('allure generate --clean ../log/testreport/ -o ../log/testreport/html'))
     logging.info("End to execute APP UI automaction cases")
