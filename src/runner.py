@@ -21,12 +21,12 @@ logging.getLogger().addHandler(fileHandler)
 if __name__ == '__main__':
     logging.info("Start to execute  automation cases")
 
-
+    pytest.main(['-sq', 'testcases/'])
     #pytest.main(['-sq', 'testcases/contact/department/test_create_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_update_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_delete_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_list_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/member/test_create_member7.py'])
-    pytest.main(['-sq','--alluredir', '../log/testreport', 'testcases/contact/member/test_create_member7.py'])
-    print(subprocess.getstatusoutput('allure generate --clean ../log/testreport/ -o ../log/testreport/html'))
+    #pytest.main(['-sq','--alluredir', '../log/testreport', 'testcases/contact/member/test_create_member7.py'])
+    #print(subprocess.getstatusoutput('allure generate --clean ../log/testreport/ -o ../log/testreport/html'))
     logging.info("End to execute APP UI automaction cases")
