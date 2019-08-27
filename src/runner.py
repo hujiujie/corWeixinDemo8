@@ -21,7 +21,7 @@ logging.getLogger().addHandler(fileHandler)
 if __name__ == '__main__':
     logging.info("Start to execute  automation cases")
 
-    pytest.main(['-s', '-q', '-v', '--alluredir', 'result','src/testcases/'])
+    pytest.main(['-s', '-q', '-v', '--alluredir', 'result','testcases/'])
     #pytest.main(['-sq', 'testcases/'])
     #pytest.main(['-sq', 'testcases/contact/department/test_create_dept.py'])
     #pytest.main(['-sq', 'testcases/contact/department/test_update_dept.py'])
